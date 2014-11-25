@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BA7F881A24EEEB00E10F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7F871A24EEEB00E10F40 /* main.m */; };
+		03BA7F8B1A24EEEB00E10F40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7F8A1A24EEEB00E10F40 /* AppDelegate.m */; };
+		03BA7F911A24EEEB00E10F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7F8F1A24EEEB00E10F40 /* Main.storyboard */; };
+		03BA7F931A24EEEB00E10F40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7F921A24EEEB00E10F40 /* Images.xcassets */; };
+		03BA7F961A24EEEB00E10F40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7F941A24EEEB00E10F40 /* LaunchScreen.xib */; };
+		03BA7FA21A24EEEB00E10F40 /* drizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7FA11A24EEEB00E10F40 /* drizzleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03BA7F9C1A24EEEB00E10F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BA7F7A1A24EEEB00E10F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BA7F811A24EEEB00E10F40;
+			remoteInfo = drizzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BA7F821A24EEEB00E10F40 /* drizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BA7F861A24EEEB00E10F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BA7F871A24EEEB00E10F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03BA7F891A24EEEB00E10F40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03BA7F8A1A24EEEB00E10F40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03BA7F901A24EEEB00E10F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03BA7F921A24EEEB00E10F40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03BA7F951A24EEEB00E10F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03BA7F9B1A24EEEB00E10F40 /* drizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drizzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BA7FA01A24EEEB00E10F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BA7FA11A24EEEB00E10F40 /* drizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drizzleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BA7F7F1A24EEEB00E10F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BA7F981A24EEEB00E10F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BA7F791A24EEEB00E10F40 = {
+			isa = PBXGroup;
+			children = (
+				03BA7F841A24EEEB00E10F40 /* drizzle */,
+				03BA7F9E1A24EEEB00E10F40 /* drizzleTests */,
+				03BA7F831A24EEEB00E10F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BA7F831A24EEEB00E10F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BA7F821A24EEEB00E10F40 /* drizzle.app */,
+				03BA7F9B1A24EEEB00E10F40 /* drizzleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BA7F841A24EEEB00E10F40 /* drizzle */ = {
+			isa = PBXGroup;
+			children = (
+				03BA7F891A24EEEB00E10F40 /* AppDelegate.h */,
+				03BA7F8A1A24EEEB00E10F40 /* AppDelegate.m */,
+				03BA7F8F1A24EEEB00E10F40 /* Main.storyboard */,
+				03BA7F921A24EEEB00E10F40 /* Images.xcassets */,
+				03BA7F941A24EEEB00E10F40 /* LaunchScreen.xib */,
+				03BA7F851A24EEEB00E10F40 /* Supporting Files */,
+			);
+			path = drizzle;
+			sourceTree = "<group>";
+		};
+		03BA7F851A24EEEB00E10F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BA7F861A24EEEB00E10F40 /* Info.plist */,
+				03BA7F871A24EEEB00E10F40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03BA7F9E1A24EEEB00E10F40 /* drizzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				03BA7FA11A24EEEB00E10F40 /* drizzleTests.m */,
+				03BA7F9F1A24EEEB00E10F40 /* Supporting Files */,
+			);
+			path = drizzleTests;
+			sourceTree = "<group>";
+		};
+		03BA7F9F1A24EEEB00E10F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BA7FA01A24EEEB00E10F40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BA7F811A24EEEB00E10F40 /* drizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BA7FA51A24EEEB00E10F40 /* Build configuration list for PBXNativeTarget "drizzle" */;
+			buildPhases = (
+				03BA7F7E1A24EEEB00E10F40 /* Sources */,
+				03BA7F7F1A24EEEB00E10F40 /* Frameworks */,
+				03BA7F801A24EEEB00E10F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drizzle;
+			productName = drizzle;
+			productReference = 03BA7F821A24EEEB00E10F40 /* drizzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03BA7F9A1A24EEEB00E10F40 /* drizzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BA7FA81A24EEEB00E10F40 /* Build configuration list for PBXNativeTarget "drizzleTests" */;
+			buildPhases = (
+				03BA7F971A24EEEB00E10F40 /* Sources */,
+				03BA7F981A24EEEB00E10F40 /* Frameworks */,
+				03BA7F991A24EEEB00E10F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03BA7F9D1A24EEEB00E10F40 /* PBXTargetDependency */,
+			);
+			name = drizzleTests;
+			productName = drizzleTests;
+			productReference = 03BA7F9B1A24EEEB00E10F40 /* drizzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BA7F7A1A24EEEB00E10F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sizeof.io;
+				TargetAttributes = {
+					03BA7F811A24EEEB00E10F40 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					03BA7F9A1A24EEEB00E10F40 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 03BA7F811A24EEEB00E10F40;
+					};
+				};
+			};
+			buildConfigurationList = 03BA7F7D1A24EEEB00E10F40 /* Build configuration list for PBXProject "drizzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03BA7F791A24EEEB00E10F40;
+			productRefGroup = 03BA7F831A24EEEB00E10F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BA7F811A24EEEB00E10F40 /* drizzle */,
+				03BA7F9A1A24EEEB00E10F40 /* drizzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BA7F801A24EEEB00E10F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BA7F911A24EEEB00E10F40 /* Main.storyboard in Resources */,
+				03BA7F961A24EEEB00E10F40 /* LaunchScreen.xib in Resources */,
+				03BA7F931A24EEEB00E10F40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BA7F991A24EEEB00E10F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BA7F7E1A24EEEB00E10F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BA7F8B1A24EEEB00E10F40 /* AppDelegate.m in Sources */,
+				03BA7F881A24EEEB00E10F40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BA7F971A24EEEB00E10F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BA7FA21A24EEEB00E10F40 /* drizzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03BA7F9D1A24EEEB00E10F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03BA7F811A24EEEB00E10F40 /* drizzle */;
+			targetProxy = 03BA7F9C1A24EEEB00E10F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03BA7F8F1A24EEEB00E10F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BA7F901A24EEEB00E10F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03BA7F941A24EEEB00E10F40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BA7F951A24EEEB00E10F40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03BA7FA31A24EEEB00E10F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03BA7FA41A24EEEB00E10F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BA7FA61A24EEEB00E10F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = drizzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03BA7FA71A24EEEB00E10F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = drizzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03BA7FA91A24EEEB00E10F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = drizzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drizzle.app/drizzle";
+			};
+			name = Debug;
+		};
+		03BA7FAA1A24EEEB00E10F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = drizzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drizzle.app/drizzle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BA7F7D1A24EEEB00E10F40 /* Build configuration list for PBXProject "drizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BA7FA31A24EEEB00E10F40 /* Debug */,
+				03BA7FA41A24EEEB00E10F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BA7FA51A24EEEB00E10F40 /* Build configuration list for PBXNativeTarget "drizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BA7FA61A24EEEB00E10F40 /* Debug */,
+				03BA7FA71A24EEEB00E10F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03BA7FA81A24EEEB00E10F40 /* Build configuration list for PBXNativeTarget "drizzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BA7FA91A24EEEB00E10F40 /* Debug */,
+				03BA7FAA1A24EEEB00E10F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BA7F7A1A24EEEB00E10F40 /* Project object */;
+}
