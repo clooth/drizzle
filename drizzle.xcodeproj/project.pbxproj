@@ -8,11 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		03BA7F881A24EEEB00E10F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7F871A24EEEB00E10F40 /* main.m */; };
-		03BA7F8B1A24EEEB00E10F40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7F8A1A24EEEB00E10F40 /* AppDelegate.m */; };
 		03BA7F911A24EEEB00E10F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7F8F1A24EEEB00E10F40 /* Main.storyboard */; };
 		03BA7F931A24EEEB00E10F40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7F921A24EEEB00E10F40 /* Images.xcassets */; };
 		03BA7F961A24EEEB00E10F40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7F941A24EEEB00E10F40 /* LaunchScreen.xib */; };
 		03BA7FA21A24EEEB00E10F40 /* drizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7FA11A24EEEB00E10F40 /* drizzleTests.m */; };
+		03E0AE641A24F63D0043418F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE5D1A24F63D0043418F /* AppDelegate.m */; };
+		03E0AE671A24F7790043418F /* AppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE661A24F7790043418F /* AppDependencies.m */; };
+		03E0AE731A250C920043418F /* RootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE721A250C920043418F /* RootWireframe.m */; };
+		03E0AE7C1A250E190043418F /* ListDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE7B1A250E190043418F /* ListDataManager.m */; };
+		03E0AE7F1A250F430043418F /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE7E1A250F430043418F /* NSArray+Additions.m */; };
+		03E0AE831A25103A0043418F /* CoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE821A25103A0043418F /* CoreDataStore.m */; };
+		03E0AE861A25161B0043418F /* ManagedLocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE851A25161B0043418F /* ManagedLocationItem.m */; };
+		03E0AE891A2518100043418F /* Drizzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE871A2518100043418F /* Drizzle.xcdatamodeld */; };
+		03E0AE8F1A251A040043418F /* LocationEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE8E1A251A040043418F /* LocationEntity.m */; };
+		03E0AE931A251B5C0043418F /* ListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE921A251B5C0043418F /* ListInteractor.m */; };
+		03E0AE991A251D8F0043418F /* ListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE981A251D8F0043418F /* ListWireframe.m */; };
+		03E0AE9C1A251E670043418F /* ListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE9B1A251E670043418F /* ListPresenter.m */; };
+		03E0AE9F1A251F8E0043418F /* LocationDisplayData.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AE9E1A251F8E0043418F /* LocationDisplayData.m */; };
+		03E0AEA21A25218B0043418F /* LocationDisplayDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEA11A25218B0043418F /* LocationDisplayDataCollector.m */; };
+		03E0AEA51A2525160043418F /* LocationDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEA41A2525160043418F /* LocationDisplayItem.m */; };
+		03E0AEA91A2528930043418F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEA81A2528930043418F /* ListViewController.m */; };
+		03E0AEB11A25303B0043418F /* AddInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEB01A25303B0043418F /* AddInteractor.m */; };
+		03E0AEB41A2530CE0043418F /* AddDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEB31A2530CE0043418F /* AddDataManager.m */; };
+		03E0AEBB1A2531AD0043418F /* AddPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEBA1A2531AD0043418F /* AddPresenter.m */; };
+		03E0AEBE1A2532610043418F /* AddWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEBD1A2532610043418F /* AddWireframe.m */; };
+		03E0AEC11A2540900043418F /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEC01A2540900043418F /* AddViewController.m */; };
+		03E0AEC41A25462A0043418F /* GeoBytesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E0AEC31A25462A0043418F /* GeoBytesStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +50,61 @@
 		03BA7F821A24EEEB00E10F40 /* drizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BA7F861A24EEEB00E10F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03BA7F871A24EEEB00E10F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03BA7F891A24EEEB00E10F40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		03BA7F8A1A24EEEB00E10F40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03BA7F901A24EEEB00E10F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03BA7F921A24EEEB00E10F40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03BA7F951A24EEEB00E10F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		03BA7F9B1A24EEEB00E10F40 /* drizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drizzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BA7FA01A24EEEB00E10F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03BA7FA11A24EEEB00E10F40 /* drizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drizzleTests.m; sourceTree = "<group>"; };
+		03E0AE5C1A24F63D0043418F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E0AE5D1A24F63D0043418F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E0AE651A24F7790043418F /* AppDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDependencies.h; sourceTree = "<group>"; };
+		03E0AE661A24F7790043418F /* AppDependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDependencies.m; sourceTree = "<group>"; };
+		03E0AE711A250C920043418F /* RootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWireframe.h; sourceTree = "<group>"; };
+		03E0AE721A250C920043418F /* RootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWireframe.m; sourceTree = "<group>"; };
+		03E0AE791A250DD00043418F /* ListModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModuleInterface.h; sourceTree = "<group>"; };
+		03E0AE7A1A250E190043418F /* ListDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDataManager.h; sourceTree = "<group>"; };
+		03E0AE7B1A250E190043418F /* ListDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDataManager.m; sourceTree = "<group>"; };
+		03E0AE7D1A250F430043418F /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		03E0AE7E1A250F430043418F /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		03E0AE811A25103A0043418F /* CoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStore.h; sourceTree = "<group>"; };
+		03E0AE821A25103A0043418F /* CoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStore.m; sourceTree = "<group>"; };
+		03E0AE841A25161B0043418F /* ManagedLocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedLocationItem.h; sourceTree = "<group>"; };
+		03E0AE851A25161B0043418F /* ManagedLocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedLocationItem.m; sourceTree = "<group>"; };
+		03E0AE881A2518100043418F /* Drizzle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drizzle.xcdatamodel; sourceTree = "<group>"; };
+		03E0AE8D1A251A040043418F /* LocationEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationEntity.h; path = drizzle/Classes/Common/Store/LocationEntity.h; sourceTree = SOURCE_ROOT; };
+		03E0AE8E1A251A040043418F /* LocationEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationEntity.m; path = drizzle/Classes/Common/Store/LocationEntity.m; sourceTree = SOURCE_ROOT; };
+		03E0AE901A251B0F0043418F /* ListInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInteractorIO.h; sourceTree = "<group>"; };
+		03E0AE911A251B5C0043418F /* ListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInteractor.h; sourceTree = "<group>"; };
+		03E0AE921A251B5C0043418F /* ListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListInteractor.m; sourceTree = "<group>"; };
+		03E0AE971A251D8F0043418F /* ListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListWireframe.h; sourceTree = "<group>"; };
+		03E0AE981A251D8F0043418F /* ListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListWireframe.m; sourceTree = "<group>"; };
+		03E0AE9A1A251E670043418F /* ListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPresenter.h; sourceTree = "<group>"; };
+		03E0AE9B1A251E670043418F /* ListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPresenter.m; sourceTree = "<group>"; };
+		03E0AE9D1A251F8E0043418F /* LocationDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDisplayData.h; sourceTree = "<group>"; };
+		03E0AE9E1A251F8E0043418F /* LocationDisplayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDisplayData.m; sourceTree = "<group>"; };
+		03E0AEA01A25218B0043418F /* LocationDisplayDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDisplayDataCollector.h; sourceTree = "<group>"; };
+		03E0AEA11A25218B0043418F /* LocationDisplayDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDisplayDataCollector.m; sourceTree = "<group>"; };
+		03E0AEA31A2525160043418F /* LocationDisplayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDisplayItem.h; sourceTree = "<group>"; };
+		03E0AEA41A2525160043418F /* LocationDisplayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDisplayItem.m; sourceTree = "<group>"; };
+		03E0AEA61A25284F0043418F /* ListViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewInterface.h; sourceTree = "<group>"; };
+		03E0AEA71A2528930043418F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		03E0AEA81A2528930043418F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		03E0AEAE1A252FD30043418F /* AddModuleDelegateInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddModuleDelegateInterface.h; sourceTree = "<group>"; };
+		03E0AEAF1A25303B0043418F /* AddInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInteractor.h; sourceTree = "<group>"; };
+		03E0AEB01A25303B0043418F /* AddInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInteractor.m; sourceTree = "<group>"; };
+		03E0AEB21A2530CE0043418F /* AddDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDataManager.h; sourceTree = "<group>"; };
+		03E0AEB31A2530CE0043418F /* AddDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDataManager.m; sourceTree = "<group>"; };
+		03E0AEB51A2531420043418F /* AddModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddModuleInterface.h; sourceTree = "<group>"; };
+		03E0AEB91A2531AD0043418F /* AddPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPresenter.h; sourceTree = "<group>"; };
+		03E0AEBA1A2531AD0043418F /* AddPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPresenter.m; sourceTree = "<group>"; };
+		03E0AEBC1A2532610043418F /* AddWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWireframe.h; sourceTree = "<group>"; };
+		03E0AEBD1A2532610043418F /* AddWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWireframe.m; sourceTree = "<group>"; };
+		03E0AEBF1A2540900043418F /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		03E0AEC01A2540900043418F /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		03E0AEC21A25462A0043418F /* GeoBytesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoBytesStore.h; sourceTree = "<group>"; };
+		03E0AEC31A25462A0043418F /* GeoBytesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoBytesStore.m; sourceTree = "<group>"; };
+		03E0AEC51A2547540043418F /* AddViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +146,7 @@
 		03BA7F841A24EEEB00E10F40 /* drizzle */ = {
 			isa = PBXGroup;
 			children = (
-				03BA7F891A24EEEB00E10F40 /* AppDelegate.h */,
-				03BA7F8A1A24EEEB00E10F40 /* AppDelegate.m */,
+				03E0AE5B1A24F63D0043418F /* Classes */,
 				03BA7F8F1A24EEEB00E10F40 /* Main.storyboard */,
 				03BA7F921A24EEEB00E10F40 /* Images.xcassets */,
 				03BA7F941A24EEEB00E10F40 /* LaunchScreen.xib */,
@@ -112,6 +179,230 @@
 				03BA7FA01A24EEEB00E10F40 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03E0AE5B1A24F63D0043418F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE5E1A24F63D0043418F /* Common */,
+				03E0AE631A24F63D0043418F /* Modules */,
+				03E0AE5C1A24F63D0043418F /* AppDelegate.h */,
+				03E0AE5D1A24F63D0043418F /* AppDelegate.m */,
+				03E0AE651A24F7790043418F /* AppDependencies.h */,
+				03E0AE661A24F7790043418F /* AppDependencies.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		03E0AE5E1A24F63D0043418F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE5F1A24F63D0043418F /* Categories */,
+				03E0AE601A24F63D0043418F /* Entity */,
+				03E0AE611A24F63D0043418F /* Store */,
+				03E0AE621A24F63D0043418F /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		03E0AE5F1A24F63D0043418F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE7D1A250F430043418F /* NSArray+Additions.h */,
+				03E0AE7E1A250F430043418F /* NSArray+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		03E0AE601A24F63D0043418F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE8D1A251A040043418F /* LocationEntity.h */,
+				03E0AE8E1A251A040043418F /* LocationEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		03E0AE611A24F63D0043418F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE801A2510120043418F /* Entities */,
+				03E0AE871A2518100043418F /* Drizzle.xcdatamodeld */,
+				03E0AE811A25103A0043418F /* CoreDataStore.h */,
+				03E0AE821A25103A0043418F /* CoreDataStore.m */,
+				03E0AEC21A25462A0043418F /* GeoBytesStore.h */,
+				03E0AEC31A25462A0043418F /* GeoBytesStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		03E0AE621A24F63D0043418F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE711A250C920043418F /* RootWireframe.h */,
+				03E0AE721A250C920043418F /* RootWireframe.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03E0AE631A24F63D0043418F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE741A250D530043418F /* List */,
+				03E0AEAA1A252F240043418F /* Add */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		03E0AE741A250D530043418F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE761A250D790043418F /* Data */,
+				03E0AE751A250D5D0043418F /* Interactor */,
+				03E0AE781A250D9A0043418F /* UI */,
+				03E0AE791A250DD00043418F /* ListModuleInterface.h */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		03E0AE751A250D5D0043418F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE901A251B0F0043418F /* ListInteractorIO.h */,
+				03E0AE911A251B5C0043418F /* ListInteractor.h */,
+				03E0AE921A251B5C0043418F /* ListInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		03E0AE761A250D790043418F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE7A1A250E190043418F /* ListDataManager.h */,
+				03E0AE7B1A250E190043418F /* ListDataManager.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		03E0AE781A250D9A0043418F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE961A251D700043418F /* Presenter */,
+				03E0AE951A251D6C0043418F /* View */,
+				03E0AE941A251D680043418F /* Wireframe */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		03E0AE801A2510120043418F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE841A25161B0043418F /* ManagedLocationItem.h */,
+				03E0AE851A25161B0043418F /* ManagedLocationItem.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		03E0AE941A251D680043418F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE971A251D8F0043418F /* ListWireframe.h */,
+				03E0AE981A251D8F0043418F /* ListWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		03E0AE951A251D6C0043418F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEA61A25284F0043418F /* ListViewInterface.h */,
+				03E0AEA71A2528930043418F /* ListViewController.h */,
+				03E0AEA81A2528930043418F /* ListViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		03E0AE961A251D700043418F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AE9A1A251E670043418F /* ListPresenter.h */,
+				03E0AE9B1A251E670043418F /* ListPresenter.m */,
+				03E0AE9D1A251F8E0043418F /* LocationDisplayData.h */,
+				03E0AE9E1A251F8E0043418F /* LocationDisplayData.m */,
+				03E0AEA31A2525160043418F /* LocationDisplayItem.h */,
+				03E0AEA41A2525160043418F /* LocationDisplayItem.m */,
+				03E0AEA01A25218B0043418F /* LocationDisplayDataCollector.h */,
+				03E0AEA11A25218B0043418F /* LocationDisplayDataCollector.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		03E0AEAA1A252F240043418F /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEAB1A252F3D0043418F /* Data */,
+				03E0AEAC1A252F440043418F /* Interactor */,
+				03E0AEAD1A252F4A0043418F /* UI */,
+				03E0AEAE1A252FD30043418F /* AddModuleDelegateInterface.h */,
+				03E0AEB51A2531420043418F /* AddModuleInterface.h */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		03E0AEAB1A252F3D0043418F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEB21A2530CE0043418F /* AddDataManager.h */,
+				03E0AEB31A2530CE0043418F /* AddDataManager.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		03E0AEAC1A252F440043418F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEAF1A25303B0043418F /* AddInteractor.h */,
+				03E0AEB01A25303B0043418F /* AddInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		03E0AEAD1A252F4A0043418F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEB81A25319E0043418F /* Presenter */,
+				03E0AEB71A25319B0043418F /* View */,
+				03E0AEB61A2531950043418F /* Wireframe */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		03E0AEB61A2531950043418F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEBC1A2532610043418F /* AddWireframe.h */,
+				03E0AEBD1A2532610043418F /* AddWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		03E0AEB71A25319B0043418F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEBF1A2540900043418F /* AddViewController.h */,
+				03E0AEC01A2540900043418F /* AddViewController.m */,
+				03E0AEC51A2547540043418F /* AddViewInterface.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		03E0AEB81A25319E0043418F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				03E0AEB91A2531AD0043418F /* AddPresenter.h */,
+				03E0AEBA1A2531AD0043418F /* AddPresenter.m */,
+			);
+			name = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +505,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BA7F8B1A24EEEB00E10F40 /* AppDelegate.m in Sources */,
+				03E0AEB11A25303B0043418F /* AddInteractor.m in Sources */,
+				03E0AE991A251D8F0043418F /* ListWireframe.m in Sources */,
+				03E0AEC11A2540900043418F /* AddViewController.m in Sources */,
+				03E0AE7F1A250F430043418F /* NSArray+Additions.m in Sources */,
+				03E0AE8F1A251A040043418F /* LocationEntity.m in Sources */,
+				03E0AE861A25161B0043418F /* ManagedLocationItem.m in Sources */,
+				03E0AEC41A25462A0043418F /* GeoBytesStore.m in Sources */,
+				03E0AE891A2518100043418F /* Drizzle.xcdatamodeld in Sources */,
+				03E0AE671A24F7790043418F /* AppDependencies.m in Sources */,
+				03E0AE731A250C920043418F /* RootWireframe.m in Sources */,
+				03E0AEA91A2528930043418F /* ListViewController.m in Sources */,
+				03E0AE9F1A251F8E0043418F /* LocationDisplayData.m in Sources */,
+				03E0AEBB1A2531AD0043418F /* AddPresenter.m in Sources */,
+				03E0AE9C1A251E670043418F /* ListPresenter.m in Sources */,
+				03E0AE641A24F63D0043418F /* AppDelegate.m in Sources */,
+				03E0AE7C1A250E190043418F /* ListDataManager.m in Sources */,
+				03E0AEA21A25218B0043418F /* LocationDisplayDataCollector.m in Sources */,
+				03E0AEBE1A2532610043418F /* AddWireframe.m in Sources */,
 				03BA7F881A24EEEB00E10F40 /* main.m in Sources */,
+				03E0AE931A251B5C0043418F /* ListInteractor.m in Sources */,
+				03E0AEB41A2530CE0043418F /* AddDataManager.m in Sources */,
+				03E0AEA51A2525160043418F /* LocationDisplayItem.m in Sources */,
+				03E0AE831A25103A0043418F /* CoreDataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +718,7 @@
 				03BA7FA71A24EEEB00E10F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03BA7FA81A24EEEB00E10F40 /* Build configuration list for PBXNativeTarget "drizzleTests" */ = {
 			isa = XCConfigurationList;
@@ -414,8 +727,22 @@
 				03BA7FAA1A24EEEB00E10F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03E0AE871A2518100043418F /* Drizzle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03E0AE881A2518100043418F /* Drizzle.xcdatamodel */,
+			);
+			currentVersion = 03E0AE881A2518100043418F /* Drizzle.xcdatamodel */;
+			path = Drizzle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03BA7F7A1A24EEEB00E10F40 /* Project object */;
 }
